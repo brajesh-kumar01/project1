@@ -1,0 +1,502 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.nav{
+    height: 70px;
+    width: 100%;
+    box-shadow: 1px 1px 3px #000;
+    position: relative;
+}
+
+
+h1{
+    font-size: 45px;
+    position:absolute;
+    left: 30px;
+    bottom: 10px;
+}
+
+
+span{
+    color: red;
+}
+
+
+a{
+    font-size: 20px;
+    margin: 20px;
+    color: #000;
+    text-decoration:none ;
+    position: relative;
+    left: 60%;
+    top: 25px;
+}
+
+
+.stm{
+    position: absolute;
+    left:87rem;
+    top:.4rem;
+}
+
+
+ a:before{
+   content: "";
+   position: absolute;
+   top: 20px;
+   left: 0px;
+   width: 0;
+   height: 3px;
+   background-color: #FD0606;
+   transition: all 0.5s linear;
+}
+
+
+
+a:after{
+   content: "";
+   position: absolute;
+   top: -10%;
+   right: 0;
+   width: 0;
+   height: 3px;
+   background-color: #fd0606;
+   transition: all 0.5s linear;
+   
+} 
+
+
+
+
+a:hover::before{
+    width: 100%;
+    background-color:black;
+}
+
+a:hover::after{
+    width: 100%;
+    background-color: black;
+} 
+
+
+input{
+    height:33PX;
+    width: 30rem;
+    position: absolute;
+    left: 19rem;
+    top: 1.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: #0e0e0e;
+}
+
+
+
+
+p{
+    font-size: 20px;
+    position: absolute;
+    top:18rem;
+    left: 5rem;
+}
+
+
+h2{
+    font-size: 60px;
+    position: absolute;
+    top:20rem;
+    left: 4rem;
+}
+
+
+h3{
+    font-size: 80px;
+    position: absolute;
+    top:25rem;
+    left:4rem;
+}
+
+
+button{
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    margin: 25px 20px;
+    border-radius: 4px;
+    position:relative;
+    top:27rem;
+    left: 3rem;
+}
+
+
+img{
+    position: absolute;
+    right: 4rem;
+}
+
+
+.foods{
+    position:relative;
+}
+
+
+.foo{
+    position: absolute;
+    top: 50rem;
+    left: 40rem;
+}
+
+
+.you{
+    font-size: 20px;
+    display:flex;
+    position: absolute;
+    top:58rem;
+    left: 4rem;
+
+}
+
+
+.veg{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:75rem;
+    left: 3rem;
+}
+
+
+.veg-p{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:85rem;
+    left:4.5rem; 
+}
+
+
+.non-veg{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:75rem;
+    left:18rem;
+}
+
+
+.veg-non{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:85rem;
+    left:19rem; 
+}
+
+
+.Garlic{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:75rem;
+    left:34rem;
+}
+
+
+.breads{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:85rem;
+    left:36.5rem;
+}
+
+
+.pizza-m{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:75rem;
+    left:50rem;
+}
+
+
+.pizza-man{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:85rem;
+    left:51.5rem;
+}
+
+
+.pizza-com{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:75rem;
+    left:66rem;
+}
+
+
+.pizza-combind{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:85rem;
+    left:67.5rem;
+}
+
+
+.pizza-bragar{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:75rem;
+    left:79rem;
+}
+
+
+.pizza-gar{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:85rem;
+    left:80.5rem;
+}
+
+
+.pizza-exps{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:93rem;
+    left:4rem;
+}
+
+
+.pizza-D{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:103rem;
+    left:5rem;
+}
+
+
+.pizza-one{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:0.1rem;
+    left:15rem;
+}
+
+
+.pizza-on{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:103rem;
+    left:5rem;
+}
+
+
+.pizza-two{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:93rem;
+    left:35rem;
+}
+
+
+.pizza-wo{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:103rem;
+    left:35rem;
+}
+
+
+.pizza-for{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:93rem;
+    left:51rem;
+}
+
+
+.pizza-or{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:103rem;
+    left:51rem;
+}
+
+
+.pizza-five{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:93rem;
+    left:67rem;
+}
+
+
+.pizza-ve{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:103rem;
+    left:68rem;
+}
+
+
+.pizza-six{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:93rem;
+    left:80rem;
+}
+
+
+.pizza-ix{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top:103rem;
+    left:80rem;
+}
+
+
+h4{
+    font-size: 30px;
+    position: absolute;
+    top: 115rem;
+    left: 45rem;
+}
+
+
+.sev{
+    position: absolute;
+    top:123rem ;
+    left:5rem;
+}
+
+
+.sevn{
+    position: absolute;
+    top:123rem ;
+    left: 25rem;
+}
+
+
+.sav{
+    position: absolute;
+    top:123rem ;
+    left:47rem;
+}
+
+
+
+.savn{
+    position: absolute;
+    top:123rem ;
+    left:70rem;
+}
+
+
+
+.savan{
+    position: absolute;
+    top:143rem ;
+    /* top: 10rem; */
+    left:5rem;
+}
+
+
+.ei{
+    position: absolute;
+    top:143rem ;
+    /* top: 10rem; */
+    left:28rem;
+}
+
+
+.eig{
+    position: absolute;
+    top:143rem ;
+    /* top: 10rem; */
+    left:50rem;
+}
+
+
+.eigh{
+    position: absolute;
+    top:143rem ;
+    /* top: 10rem; */
+    left:72rem;
+}
+
+
+
+.eight{
+    position: absolute;
+    top:168rem ;
+    /* top: 10rem; */
+    left:5rem;
+}
+
+
+.n{
+    position: absolute;
+    top:168rem ;
+    /* top: 10rem; */
+    left:28rem;
+}
+
+
+.ni{
+    position: absolute;
+    top:168rem ;
+    /* top: 10rem; */
+    left:50rem;
+}
+
+
+
+.nin{
+    position: absolute;
+    top:168rem ;
+    /* top: 10rem; */
+    left:72rem;
+}
+
+
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 190rem;
+}
+
